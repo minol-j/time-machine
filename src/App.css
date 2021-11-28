@@ -1,0 +1,38 @@
+.Timers {
+  width: 500px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+body {
+  background-color: cadetblue;
+}
+
+#display span {
+  font-size: 136px;
+}
+
+.btn-group button {
+  width: 150px;
+  height: 50px;
+  font-size: 16px;
+  background-color: rgb(146, 57, 44);
+  color: #fff;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  user-select: none;
+  margin: 8px;
+}
+
+.btn-group button:hover {
+  background-color: rgb(173, 47, 28);
+}
+
+.btn-group button:active {
+  background-color: rgb(130, 35, 21);
+}
+
+.btn-group button:focus {
+  outline: 0;
+}
