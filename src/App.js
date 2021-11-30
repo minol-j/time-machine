@@ -86,6 +86,12 @@ const App = () => {
     }
   }
 
+  function reset() {
+    setTimerOn(true);
+    setTime(0);
+    setBtnName(BUTTON_NAME_STOP);
+  }
+
   return (
     <div className="Timers">
       <h1>TimeMachine</h1>
@@ -97,7 +103,7 @@ const App = () => {
         >
           Start
         </button>
-        <button onClick={() => setTime(0)}>Reset</button>
+        <button onClick={() => reset()}>Reset</button>
         <button onClick={() => setClicks((click) => click + 1)}>Wait</button>
       </div>
     </div>
